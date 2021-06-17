@@ -1,6 +1,5 @@
 *{
     font-family: 'Benne', serif;
-    box-sizing: border-box;
 }
 
 header{
@@ -8,17 +7,13 @@ header{
 }
 
 body{
-    margin: 0;
-}
-
-main {
     background-image:linear-gradient( #C8A2C8, #EFF1DB);
     background-image:linear-gradient(to bottom, rgba(200, 162, 200, 0.85), rgba(239, 231, 211, 0.75)), url('https://images.unsplash.com/photo-1613385119733-de72e1bb1c89?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c3RhcnMlMjBhdCUyMG5pZ2h0fGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80');
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 100vh; 
     margin: 0;   
-} 
+}
 
 h1{
     text-align: center;
@@ -27,7 +22,7 @@ h1{
 } 
 
 h2{
-    padding-left: 30px;
+    text-align: center;
 }
 
 p{
@@ -47,5 +42,4 @@ a{
     border: 2px solid rgb(238, 180, 188);
     border-radius: 25px;
     padding: 10px 15px;
-    margin: 10px 70px;
 }
