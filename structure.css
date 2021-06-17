@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+}
+
+header{
+    grid-area:header;
+    height: 50px;
+}
+
+aside {
+	grid-area: aside;
+    height: 100vh;
+    padding: 25px 25px;
+}
+
+aside section{
+    height:100%;
+}
+
+body{
+    display:grid;
+    grid-template-columns:25vw 1fr;
+    grid-template-rows: 3vw 1fr ;
+    grid-template-areas: "header header "
+                        "aside main"; 
+}
+
+.info-grid-row {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 50vh;
+    padding: 25px 25px;
+}
+
+.info-grid-item {
+    display:block;
+    width: 65%;
+}
+
+#info-grid {
+   
+    width: 100%;
+    height: 100vh;
+
+}
