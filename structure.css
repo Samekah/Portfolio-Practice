@@ -9,8 +9,6 @@ header{
 
 aside {
 	grid-area: aside;
-    height: 100vh;
-    padding: 25px 25px;
 }
 
 aside section{
@@ -31,20 +29,23 @@ body{
     justify-content: center;
     flex-wrap: wrap;
     height: 50vh;
-    padding: 25px 25px;
+    /* padding: 25px 25px; */
+    padding: 25px 75px 25px 75px;
 }
 
 .info-grid-item {
     display:block;
-    width: 65%;
+    width: 100%;
 }
 
 .about-grid-col{
     display: flex;
     width: 100%;
+    height:100vh;
     justify-content: center;
     flex-wrap: wrap; 
-    padding: 25px 25px;
+    /* padding: 25px 25px; */
+    padding: 25px 0px 25px 75px;
 }
 
 .about-col-item{
