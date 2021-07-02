@@ -1,0 +1,59 @@
+@media only screen and (min-width:1400px) {
+    header {
+        background-color:red;
+    }
+    
+    header h1, header li{
+        font-size: 25px;
+    }
+
+    header li{
+        visibility: visible;
+    }
+}
+
+@media only screen and (min-width:1050px) and (max-width:1399px) {
+    header {
+        background-color:blue;
+    }
+    
+    header h1, header li{
+        font-size: 22px;
+    }
+
+    header li{
+        visibility: visible;
+    }
+}
+
+@media only screen and (min-width:932px) and (max-width:1049px) {
+    header {
+        background-color:green;
+    }
+    
+    header h1{
+        font-size: 18px;
+        text-align: left;
+        padding-left: 50px;
+    }
+
+    header li{
+        font-size: 18px;
+        visibility: visible;
+    }
+}
+
+@media only screen and (max-width: 931px){
+    header {
+        background-color:pink;
+        height: 48px;
+    }
+
+    header h1, header li{
+        font-size: 18px;
+    }
+
+    header li{
+        visibility: hidden;
+    }
+}

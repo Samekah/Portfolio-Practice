@@ -18,11 +18,14 @@ aside section{
 body{
     display:grid;
     grid-template-columns:25vw 1fr;
-    grid-template-rows: 2vw 1fr ;
+    grid-template-rows: 3vw 1fr ;
     grid-template-areas: "header header "
                         "aside main"; 
 }
-
+#info-grid {
+    width: 100%;
+    height: 100vh;
+}
 .info-grid-row {
     display: flex;
     width: 100%;
@@ -70,10 +73,7 @@ body{
     height: 100%;
 }
 
-#info-grid {
-    width: 100%;
-    height: 100vh;
-}
+
 
 #about-col{
     width: 100%;
