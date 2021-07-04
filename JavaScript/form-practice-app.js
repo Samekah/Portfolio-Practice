@@ -2,17 +2,17 @@ let title = document.querySelector("h2");
 let form = document.querySelector("form");
 
 title.addEventListener("click", () =>{
-   let value = title.value;
+   let value = title.textContent;
 
    switch(value){
        case "Testing":
-           value = "Contact us"
+           value = "Register account"
            break;
-        case "Contact us":
+        case "Register account":
             value = "Testing"
             break; 
    }
-
+   
    title.textContent=value;
 });
 
