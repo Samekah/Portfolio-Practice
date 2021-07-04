@@ -7,6 +7,7 @@
     <title>Samekah's Test Portfolio</title>
     <link href="../css/style.css" rel="stylesheet" type="text/css" />
     <link href="../css/form-practice-structure.css" rel="stylesheet" type="text/css" />
+    <link href="../css/form-practice-style.css" rel="stylesheet" type="text/css" />
     <link rel="preconnect" href="https://fonts.gstatic.com"><link href="https://fonts.googleapis.com/css2?family=Benne&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -24,7 +25,7 @@
             <div class="header-grid-col">
                 <section class="header-grid-col-item">
                     <ul>
-                        <li><a href = "#">placeholder 1</a></li>
+                        <li><a href = "#">API and Form practice</a></li>
                         <li><a href = "index.html">Home </a></li>
                         <li><a href = "form-practice.html">form practice</a></li>
                     </ul>
@@ -33,23 +34,32 @@
         </div>
     </header>
     <main>
-        <div id ="info-grid">
-            <div class = "info-grid-row">
-                <section class = "stand-out info-grid-item skills">
-                    <div>
-                        <h2>Skills</h2>
-                        <p>Coming Soon! </p>                
+        <div id ="practiceForm">
+            <div class = "formItem">
+                <section class = "stand-out">
+                    <h2>Contact us</h2>
+                    <div class ="centerform">
+                        <form class = centerform>
+                            <label for="fname">First Name:
+                                <input type="text" name="fname" id="fname" placeholder="First name...">
+                            </label>
+                            <label for="lname">Last Name:
+                                <input type="text" name="lname" id="lname" placeholder="Last name...">
+                            </label>
+                            <label for="email">Email:
+                                <input type="email" name="email" id="email" placeholder="Email address...">
+                            </label>
+                            <label for="newpass">New password:
+                                <input type="password" name="newpass" id="newpass">
+                            </label>
+                            <label for="pass">Password:
+                                <input type="password" name="pass" id="pass">
+                            </label>
+                            <input type="submit" value="Sign up!">
+                        </form>        
                     </div>
                 </section>
             </div>  
-            <div class = "info-grid-row">
-                <section class = "stand-out info-grid-item projects">
-                    <h2>Projects</h2>
-                    <p>Below is a list of some of the projects I have worked on </p>
-                    <br>
-                    <p>More Projects can be found on <a href = "https://github.com/Samekah?tab=repositories" target="_blank">My Github</a></p>
-                </section>
-            </div>
         </div>
     </main>
 </body>

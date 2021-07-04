@@ -1,0 +1,26 @@
+h2{
+    font-size: 2em;
+    text-decoration: underline;
+}
+
+label{
+    font-size: 24px;
+    text-align: center;
+}
+
+input:not(input[type ="submit"]){
+    display: flex;
+    width:25vw;
+    font-size: 18px;
+}
+
+input[type ="submit"]{
+    margin-top:25px;
+    font-size: 20px;
+    width: 8vw;
+    border-radius: 5px;
+}
+
+
+
+
